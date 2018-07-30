@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
   resources :transactions
   resources :accounts
-  root 'accounts#index'
+  root 'static_pages#home'
 end
