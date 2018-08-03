@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82f620f7-2d51-4545-b62b-71dfd2be391b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/users.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20180803174924_create_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -30,7 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/rails_learning@Development__hello_app.rcov" NAME="Development: hello_app Coverage Results" MODIFIED="1533318793041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hello_app" />
-    <SUITE FILE_PATH="coverage/rails_learning@All_tests_in_test__hello_app.rcov" NAME="All tests in test: hello_app Coverage Results" MODIFIED="1533310709532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hello_app" />
+    <SUITE FILE_PATH="coverage/rails_learning@All_tests_in_test__hello_app.rcov" NAME="All tests in test: hello_app Coverage Results" MODIFIED="1533321108497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hello_app" />
     <SUITE FILE_PATH="coverage/rails_learning@Run_test__site_layout_test___hello_app.rcov" NAME="Run test 'site_layout_test': hello_app Coverage Results" MODIFIED="1533311205115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hello_app" />
     <SUITE FILE_PATH="coverage/hello_app@Production__hello_app.rcov" NAME="Production: hello_app Coverage Results" MODIFIED="1532880296244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hello_app" />
     <SUITE FILE_PATH="coverage/rails_learning@Run_test__UserTest___hello_app.rcov" NAME="Run test 'UserTest': hello_app Coverage Results" MODIFIED="1533320710038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hello_app" />
@@ -108,7 +96,7 @@
           <entry key="erb" value="15" />
           <entry key="iml" value="1" />
           <entry key="jbuilder" value="1" />
-          <entry key="rb" value="28" />
+          <entry key="rb" value="29" />
           <entry key="scss" value="2" />
           <entry key="xml" value="1" />
           <entry key="yml" value="1" />
@@ -120,7 +108,7 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="15" />
-          <entry key="Ruby" value="31" />
+          <entry key="Ruby" value="32" />
           <entry key="SCSS" value="2" />
           <entry key="XML" value="1" />
           <entry key="YAML" value="1" />
@@ -131,7 +119,7 @@
           <entry key="Gemfile" value="54" />
           <entry key="coffee" value="1" />
           <entry key="erb" value="762" />
-          <entry key="rb" value="1255" />
+          <entry key="rb" value="1295" />
           <entry key="scss" value="776" />
         </counts>
       </usages-collector>
@@ -139,7 +127,7 @@
         <counts>
           <entry key="CoffeeScript" value="1" />
           <entry key="RHTML" value="762" />
-          <entry key="Ruby" value="1309" />
+          <entry key="Ruby" value="1349" />
           <entry key="SCSS" value="776" />
         </counts>
       </usages-collector>
@@ -151,11 +139,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/models/user.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
                   <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/db/migrate/20180803182613_add_index_to_users_email.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
                 </state>
               </provider>
             </entry>
@@ -205,6 +202,7 @@
         <option value="$PROJECT_DIR$/test/integration/site_layout_test.rb" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180803182613_add_index_to_users_email.rb" />
       </list>
     </option>
   </component>
@@ -294,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'UserTest': hello_app">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.All tests in test: hello_app">
     <configuration name="Development: hello_app" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="hello_app" />
@@ -522,9 +520,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: hello_app" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'UserTest': hello_app" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'site_layout_test': hello_app" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: hello_app" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'StaticPagesControllerTest': hello_app" />
       </list>
     </recent_temporary>
@@ -544,7 +542,7 @@
       <workItem from="1532880959246" duration="262000" />
       <workItem from="1532912511436" duration="1123000" />
       <workItem from="1533090987238" duration="839000" />
-      <workItem from="1533304236119" duration="8947000" />
+      <workItem from="1533304236119" duration="9187000" />
     </task>
     <servers />
   </component>
@@ -581,7 +579,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14737000" />
+    <option name="totallyTimeSpent" value="14977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="23" width="1400" height="837" extended-state="0" />
@@ -642,9 +640,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -867,6 +862,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180803182613_add_index_to_users_email.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
         </state>
       </provider>
     </entry>
