@@ -1,4 +1,4 @@
-class AccountsController < ApplicationController
+class AccountsController < AuthRequiredController
   before_action :set_account, only: [:show, :edit, :update, :destroy]
 
   # GET /accounts

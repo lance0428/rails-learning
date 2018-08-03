@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class UsersController < AuthRequiredController
 
   def show
     @user = User.find(params["id"])

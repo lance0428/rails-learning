@@ -1,4 +1,4 @@
-class TransactionsController < ApplicationController
+class TransactionsController < AuthRequiredController
   before_action :set_transaction, only: [:show, :edit, :update, :destroy]
 
   # GET /transactions

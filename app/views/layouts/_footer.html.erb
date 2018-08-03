@@ -6,6 +6,7 @@
   <nav>
     <ul>
       <li><%= link_to "Home", home_path %></li>
+      <li><%= link_to "Log out", logout_path, method: :delete %></li>
     </ul>
   </nav>
   <%= debug(params) if Rails.env.development? %>
