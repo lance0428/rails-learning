@@ -1,11 +1,11 @@
 <footer class="footer">
   <small>
-    <%= link_to image_tag("logo.jpg", size: "20x20", alt: "Logo"), '#', id: "logoImage" %>
+    <%= link_to image_tag("logo.jpg", size: "20x20", alt: "Logo"), home_path, id: "logoImage" %>
     copyright <%= Time.new.year %>
   </small>
   <nav>
     <ul>
-      <li><%= link_to "Home", '#' %></li>
+      <li><%= link_to "Home", home_path %></li>
     </ul>
   </nav>
 </footer>
